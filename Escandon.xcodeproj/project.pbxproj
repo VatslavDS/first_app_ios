@@ -1,0 +1,435 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A520A56D1A9BFD7B00ADB319 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A520A56C1A9BFD7B00ADB319 /* AppDelegate.swift */; };
+		A520A56F1A9BFD7B00ADB319 /* RecordSoundsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A520A56E1A9BFD7B00ADB319 /* RecordSoundsViewController.swift */; };
+		A520A5721A9BFD7B00ADB319 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A520A5701A9BFD7B00ADB319 /* Main.storyboard */; };
+		A520A5741A9BFD7B00ADB319 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A520A5731A9BFD7B00ADB319 /* Images.xcassets */; };
+		A520A5771A9BFD7B00ADB319 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A520A5751A9BFD7B00ADB319 /* LaunchScreen.xib */; };
+		A520A5831A9BFD7B00ADB319 /* EscandonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A520A5821A9BFD7B00ADB319 /* EscandonTests.swift */; };
+		A5220DD21A9D6E3D0048BF52 /* PlaySoundViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5220DD11A9D6E3D0048BF52 /* PlaySoundViewController.swift */; };
+		A5220DD71A9D7D550048BF52 /* movie_quote.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A5220DD61A9D7D550048BF52 /* movie_quote.mp3 */; };
+		A5220DD91A9E66620048BF52 /* RecordedAudio.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5220DD81A9E66620048BF52 /* RecordedAudio.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A520A57D1A9BFD7B00ADB319 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A520A55F1A9BFD7B00ADB319 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A520A5661A9BFD7B00ADB319;
+			remoteInfo = Escandon;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A520A5671A9BFD7B00ADB319 /* Escandon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Escandon.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A520A56B1A9BFD7B00ADB319 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A520A56C1A9BFD7B00ADB319 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A520A56E1A9BFD7B00ADB319 /* RecordSoundsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordSoundsViewController.swift; sourceTree = "<group>"; };
+		A520A5711A9BFD7B00ADB319 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A520A5731A9BFD7B00ADB319 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A520A5761A9BFD7B00ADB319 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		A520A57C1A9BFD7B00ADB319 /* EscandonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EscandonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A520A5811A9BFD7B00ADB319 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A520A5821A9BFD7B00ADB319 /* EscandonTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EscandonTests.swift; sourceTree = "<group>"; };
+		A5220DD11A9D6E3D0048BF52 /* PlaySoundViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaySoundViewController.swift; sourceTree = "<group>"; };
+		A5220DD61A9D7D550048BF52 /* movie_quote.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = movie_quote.mp3; path = ../../../../Downloads/movie_quote.mp3; sourceTree = "<group>"; };
+		A5220DD81A9E66620048BF52 /* RecordedAudio.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecordedAudio.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A520A5641A9BFD7B00ADB319 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A520A5791A9BFD7B00ADB319 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A520A55E1A9BFD7B00ADB319 = {
+			isa = PBXGroup;
+			children = (
+				A520A5691A9BFD7B00ADB319 /* Escandon */,
+				A520A57F1A9BFD7B00ADB319 /* EscandonTests */,
+				A520A5681A9BFD7B00ADB319 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A520A5681A9BFD7B00ADB319 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A520A5671A9BFD7B00ADB319 /* Escandon.app */,
+				A520A57C1A9BFD7B00ADB319 /* EscandonTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A520A5691A9BFD7B00ADB319 /* Escandon */ = {
+			isa = PBXGroup;
+			children = (
+				A520A56C1A9BFD7B00ADB319 /* AppDelegate.swift */,
+				A520A56E1A9BFD7B00ADB319 /* RecordSoundsViewController.swift */,
+				A520A5701A9BFD7B00ADB319 /* Main.storyboard */,
+				A5220DD81A9E66620048BF52 /* RecordedAudio.swift */,
+				A5220DD11A9D6E3D0048BF52 /* PlaySoundViewController.swift */,
+				A520A5731A9BFD7B00ADB319 /* Images.xcassets */,
+				A520A5751A9BFD7B00ADB319 /* LaunchScreen.xib */,
+				A5220DD61A9D7D550048BF52 /* movie_quote.mp3 */,
+				A520A56A1A9BFD7B00ADB319 /* Supporting Files */,
+			);
+			path = Escandon;
+			sourceTree = "<group>";
+		};
+		A520A56A1A9BFD7B00ADB319 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A520A56B1A9BFD7B00ADB319 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A520A57F1A9BFD7B00ADB319 /* EscandonTests */ = {
+			isa = PBXGroup;
+			children = (
+				A520A5821A9BFD7B00ADB319 /* EscandonTests.swift */,
+				A520A5801A9BFD7B00ADB319 /* Supporting Files */,
+			);
+			path = EscandonTests;
+			sourceTree = "<group>";
+		};
+		A520A5801A9BFD7B00ADB319 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A520A5811A9BFD7B00ADB319 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A520A5661A9BFD7B00ADB319 /* Escandon */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A520A5861A9BFD7B00ADB319 /* Build configuration list for PBXNativeTarget "Escandon" */;
+			buildPhases = (
+				A520A5631A9BFD7B00ADB319 /* Sources */,
+				A520A5641A9BFD7B00ADB319 /* Frameworks */,
+				A520A5651A9BFD7B00ADB319 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Escandon;
+			productName = Escandon;
+			productReference = A520A5671A9BFD7B00ADB319 /* Escandon.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A520A57B1A9BFD7B00ADB319 /* EscandonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A520A5891A9BFD7B00ADB319 /* Build configuration list for PBXNativeTarget "EscandonTests" */;
+			buildPhases = (
+				A520A5781A9BFD7B00ADB319 /* Sources */,
+				A520A5791A9BFD7B00ADB319 /* Frameworks */,
+				A520A57A1A9BFD7B00ADB319 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A520A57E1A9BFD7B00ADB319 /* PBXTargetDependency */,
+			);
+			name = EscandonTests;
+			productName = EscandonTests;
+			productReference = A520A57C1A9BFD7B00ADB319 /* EscandonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A520A55F1A9BFD7B00ADB319 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = Vatslav;
+				TargetAttributes = {
+					A520A5661A9BFD7B00ADB319 = {
+						CreatedOnToolsVersion = 6.1.1;
+						DevelopmentTeam = 5C5632MVK3;
+					};
+					A520A57B1A9BFD7B00ADB319 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = A520A5661A9BFD7B00ADB319;
+					};
+				};
+			};
+			buildConfigurationList = A520A5621A9BFD7B00ADB319 /* Build configuration list for PBXProject "Escandon" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A520A55E1A9BFD7B00ADB319;
+			productRefGroup = A520A5681A9BFD7B00ADB319 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A520A5661A9BFD7B00ADB319 /* Escandon */,
+				A520A57B1A9BFD7B00ADB319 /* EscandonTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A520A5651A9BFD7B00ADB319 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A520A5721A9BFD7B00ADB319 /* Main.storyboard in Resources */,
+				A520A5771A9BFD7B00ADB319 /* LaunchScreen.xib in Resources */,
+				A5220DD71A9D7D550048BF52 /* movie_quote.mp3 in Resources */,
+				A520A5741A9BFD7B00ADB319 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A520A57A1A9BFD7B00ADB319 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A520A5631A9BFD7B00ADB319 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5220DD91A9E66620048BF52 /* RecordedAudio.swift in Sources */,
+				A520A56F1A9BFD7B00ADB319 /* RecordSoundsViewController.swift in Sources */,
+				A5220DD21A9D6E3D0048BF52 /* PlaySoundViewController.swift in Sources */,
+				A520A56D1A9BFD7B00ADB319 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A520A5781A9BFD7B00ADB319 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A520A5831A9BFD7B00ADB319 /* EscandonTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A520A57E1A9BFD7B00ADB319 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A520A5661A9BFD7B00ADB319 /* Escandon */;
+			targetProxy = A520A57D1A9BFD7B00ADB319 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A520A5701A9BFD7B00ADB319 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A520A5711A9BFD7B00ADB319 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A520A5751A9BFD7B00ADB319 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A520A5761A9BFD7B00ADB319 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A520A5841A9BFD7B00ADB319 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A520A5851A9BFD7B00ADB319 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A520A5871A9BFD7B00ADB319 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Escandon/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A520A5881A9BFD7B00ADB319 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Escandon/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A520A58A1A9BFD7B00ADB319 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = EscandonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Escandon.app/Escandon";
+			};
+			name = Debug;
+		};
+		A520A58B1A9BFD7B00ADB319 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = EscandonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Escandon.app/Escandon";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A520A5621A9BFD7B00ADB319 /* Build configuration list for PBXProject "Escandon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A520A5841A9BFD7B00ADB319 /* Debug */,
+				A520A5851A9BFD7B00ADB319 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A520A5861A9BFD7B00ADB319 /* Build configuration list for PBXNativeTarget "Escandon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A520A5871A9BFD7B00ADB319 /* Debug */,
+				A520A5881A9BFD7B00ADB319 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A520A5891A9BFD7B00ADB319 /* Build configuration list for PBXNativeTarget "EscandonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A520A58A1A9BFD7B00ADB319 /* Debug */,
+				A520A58B1A9BFD7B00ADB319 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A520A55F1A9BFD7B00ADB319 /* Project object */;
+}
